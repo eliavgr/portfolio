@@ -1,0 +1,142 @@
+@import "../../vars.css";
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 0 10%;
+}
+
+.title {
+  font-size: 156px;
+  font-weight: 700;
+  background-image: url("../../../assets/projects/portfolio-back.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menuBtn{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.navigation {
+  width: 230px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+
+}
+.navItems {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.navItem {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
+.navItem a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+.navItem a .icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+  transition: 0.5s;
+  color: #ffffff;
+  opacity: 0.75;
+}
+.navItem.active a .icon {
+  transform: translateY(-8px);
+  opacity: 1;
+  color: #29fd;
+}
+
+.indicator {
+  background-color: #000;
+  position: absolute;
+  top: -10px;
+  width: 70px;
+  height: 70px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 6px solid var(--clr);
+  background: var(--clr);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+  transform: translateX(calc(75px * 1));
+}
+.navigation ul li:nth-child(3).active ~ .indicator {
+  transform: translateX(calc(145px));
+}
+.navigation ul li:nth-child(4).active ~ .indicator {
+  transform: translateX(calc(215px));
+}
+
+.indicator span {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  width: 60px;
+  height: 60px;
+  border: 4px solid #29fd;
+  background: #ffffff;
+  border-radius: 50%;
+  transform-origin: bottom;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transform: scale(0.85);
+  z-index: -1;
+}
+
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+}

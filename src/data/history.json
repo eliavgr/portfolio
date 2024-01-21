@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Full-Stack Developer",
+    "organisation": "Kristech",
+    "startDate": "Jan, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Development of new Websites",
+      "Work in a changing environment"
+    ],
+    "imageSrc": "history/kristech.png"
+  },
+  {
+    "role": "Technical Project Managment",
+    "organisation": "Navy IDF",
+    "startDate": "Sep, 2021",
+    "endDate": "Nov, 2022",
+    "experiences": [
+      "Heavy Torpedo in Submarine",
+      "Ongoing management with a German company"
+    ],
+    "imageSrc": "history/Navy.png"
+  },
+  {
+    "role": "Project Managment",
+    "organisation": "Navy IDF",
+    "startDate": "Mar, 2018",
+    "endDate": "Sep, 2021",
+    "experiences": [
+      "Underwater electronics defence",
+      "Knowledge in underwater acoustic"
+    ],
+    "imageSrc": "history/Navy.png"
+  }
+]
