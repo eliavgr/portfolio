@@ -12,6 +12,12 @@
   gap: 10px;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
 .header{
   font-size: 80px;
   font-weight: 700;
@@ -47,6 +53,7 @@
 .text{
   display: flex;
   flex-direction: column;
+  padding: 2em 0 1em;
 }
 
 .content{
@@ -61,11 +68,17 @@
 }
 .content h2:nth-child(1){
   color: transparent;
-  -webkit-text-stroke: 2px var(--color-bg);
+  -webkit-text-stroke: 1px var(--color-bg);
+  font-weight: 500;
+  font-size: 80px;
+  font-family: cursive;
 }
 .content h2:nth-child(2){
   color: #ffffff;
   animation: animate 4s ease-in-out infinite;
+  font-weight: 500;
+  font-size: 80px;
+  font-family: cursive;
 }
 @keyframes animate{
   0%, 
@@ -91,11 +104,6 @@
     gap: 23px;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
   .links {
     align-items: flex-start;
@@ -111,8 +119,7 @@
     font-size: 40px;
   }
   .header{
-    font-size: 40px;
-
+    font-size: 40px
   }
   .context {
     font-size: 22px;
@@ -120,5 +127,11 @@
   .link a {
     font-size: 16px;
   }
-  
+  .content h2:nth-child(1){
+    font-size: 50px;
+  }
+  .content h2:nth-child(2){
+    font-size: 50px;
+  }
+
 }

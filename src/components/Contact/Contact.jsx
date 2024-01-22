@@ -8,11 +8,11 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <Box className={styles.text}>
-        {/* <Box className={styles.content}>
+        <Box className={styles.content}>
           <h2>Contact</h2>
           <h2>Contact</h2>
-        </Box> */}
-        <p className={styles.header}>Contact</p>
+        </Box>
+        {/* <p className={styles.header}>Contact</p> */}
         <p className={styles.context}>Feel free to reach out!</p>
       </Box>
       <ul className={styles.links}>
