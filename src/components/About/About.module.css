@@ -97,3 +97,9 @@
     padding-right: 0;
   }
 }
+
+@media screen and (max-width: 630px) {
+.aboutItem {
+  flex-direction: column;
+}
+}
