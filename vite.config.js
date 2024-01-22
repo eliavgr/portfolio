@@ -12,5 +12,10 @@ export default defineConfig({
       localsConvention: "camelCase",
     },
   },
+  build: {
+    outDir: "dist", // Specify the output directory for the production build
+    assetsDir: "assets", // Specify the assets directory for generated assets
+    sourcemap: false, // Disable source maps for production build (optional)
+  },
 });
 
