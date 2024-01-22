@@ -35,6 +35,9 @@
   align-items: center;
   gap: 11px;
 }
+.skillImageContainer:hover{
+  background-color: var(--color-primary);
+}
 
 .skillImageContainer {
   background-color: var(--color-secondary);
