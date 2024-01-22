@@ -132,8 +132,13 @@
   .container {
     flex-direction: column-reverse;
   }
-
+  .heroImg {
+    width: 45%;
+  }
   .content {
     align-items: center;
+  }
+  .title {
+    font-size: 42px;
   }
 }
