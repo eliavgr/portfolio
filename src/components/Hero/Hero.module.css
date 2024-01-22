@@ -38,6 +38,8 @@
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  text-align: left;
+
 }
 
 .contactBtn {
@@ -141,4 +143,11 @@
   .title {
     font-size: 42px;
   }
+}
+
+@media screen and (max-width: 560px) {
+  .description {
+    text-align: center;
+  }
+
 }

@@ -13,6 +13,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -124,5 +125,23 @@
   @media screen and (max-width: 630px) {
   .historyItem {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .title {
+    text-align: center;
+  }
+  .historyItem{
+    text-align: center;
+  }
+  .historyItemDetails h3 {
+    font-size: 20px;
+  }
+  .historyItemDetails p {
+    font-size: 14px;
+  }
+  .historyItemDetails ul {
+    font-size: 17px;
   }
 }
