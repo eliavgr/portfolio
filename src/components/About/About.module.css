@@ -102,4 +102,21 @@
 .aboutItem {
   flex-direction: column;
 }
+.title {
+  text-align: center;
+}
+.aboutItem {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutItem p {
+  text-align: center;
+}
+.aboutItem h3 {
+  text-align: center;
+}
+.container {
+  margin-top: 20px;
+}
 }
