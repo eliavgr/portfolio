@@ -12,7 +12,7 @@ export const Menu = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <a className={styles.title} href="/portfolio">
         Portfolio
       </a>
       {/* <Box className={styles.menu}>
