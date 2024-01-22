@@ -11,7 +11,7 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <Box className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/vector.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
